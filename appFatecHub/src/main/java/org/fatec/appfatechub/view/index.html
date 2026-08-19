@@ -10,57 +10,99 @@
 
 <body>
     <div class="barra-superior">
-        <div class="row">
-            <img src="" alt="imagem de logo do projeto">
-            <h1>FatecHub</h1>
+        <div class="inline barra-superior-desktop">
+            <div class="inline">
+                <img src="" alt="imagem de logo do projeto">
+                <h1>FatecHub</h1>
+            </div>
+    
+            <div class="inline">
+                <h3 id="anchor-howto">Como Funciona</h3>
+                <h3 id="anchor-categorias">Categorias</h3>
+    
+                <button type="button" class="botao">Entrar</button>
+            </div>
         </div>
 
-        <div class="row">
-            <h3>Como Funciona</h3>
-            <h3>Categorias</h3>
-
-            <button type="button" class="botao">Entrar</button>
+        <div class="inline mobile-bar">
+            <h3 id="anchor-howto-mobile">Como Funciona</h3>
+            <h3 id="anchor-categorias-mobile">Categorias</h3>
         </div>
     </div>
 
-    <section>
-        <div class="banner-topo">
-            <div>
-                <span class="">Feito por alunos, para alunos da Fatec Santos</span>
-            </div>
-            <div>
-                <h1>Troque serviços com quem entende<br>o que você precisa</h1>
-            </div>
-            <div>
-                <p>Aula particular, revisão de trabalho, design, freela de código. Tudo dentro do ecossistema da sua
-                    turma.</p>
-            </div>
-            <div class="inline">
-                <button type="button">Oferecer um serviço</button>
-                <button type="button">Explorar serviços</button>
-            </div>
-        </div>
 
-        <div class="inline cards">
-            <div class="">
-                <div class=""> <!--adicionar icone svg de livro--> </div>
-                <h3>Aulas particulares</h3>
-                <p>Cálculo, lógica, redes e mais</p>
-            </div>
-            <div class="">
-                <div class=""><!--adicionar icone svg de computador--></div>
-                <h3>Freelas de dev</h3>
-                <p>Sites, apps, scripts</p>
-            </div>
-            <div class="">
-                <div class=""><!--adicionar icone svg de paleta --></div>
-                <h3>Design</h3>
-                <p>Logo, artes, apresentações</p>
-            </div>
-        </div>
-    </section>
+    <div class="info-container">
 
-    <section></section>
+        <section class="background-banner">
+            <div class="banner-topo">
+                <div>
+                    <span class="">Feito por alunos, para alunos da Fatec Santos</span>
+                </div>
+                <div>
+                    <h1>Troque serviços com quem entende<br>o que você precisa</h1>
+                </div>
+                <div>
+                    <p>Aula particular, revisão de trabalho, design, freela de código. Tudo dentro do ecossistema da sua
+                        turma.</p>
+                </div>
+                <div class="inline">
+                    <button type="button">Oferecer um serviço</button>
+                    <button type="button">Explorar serviços</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="background-cards">
+            <div class="inline cards">
+                <div class="inner-cards">
+                    <div class=""> <!--adicionar icone svg de livro--> </div>
+                    <h3>Aulas particulares</h3>
+                    <p>Cálculo, lógica, redes e mais</p>
+                </div>
+                <div class="inner-cards">
+                    <div class=""><!--adicionar icone svg de computador--></div>
+                    <h3>Freelas de dev</h3>
+                    <p>Sites, apps, scripts</p>
+                </div>
+                <div class="inner-cards">
+                    <div class=""><!--adicionar icone svg de paleta --></div>
+                    <h3>Design</h3>
+                    <p>Logo, artes, apresentações</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="como-funciona background-how" id="como-funciona">
+            <div class="container-como-funciona">
+                <div>
+                    <h2>Como funciona</h2>
+                </div>
+                <div class="inline">
+
+                    <div class="">
+                        <div class="">1</div>
+                        <h3>Cadastre-se</h3>
+                        <p>Clique em cadastrar e preencha suas informações de aluno.</p>
+                    </div>
+
+                    <div class="">
+                        <div class="">2</div>
+                        <h3>Encontre um serviço</h3>
+                        <p>Pesquise pelo serviço que precisa e veja o perfil de quem oferece.</p>
+                    </div>
+
+                    <div class="">
+                        <div class="">3</div>
+                        <h3>Marque com o aluno</h3>
+                        <p>Entre em contato, combine os detalhes e agende com o prestador.</p>
+                    </div>
+
+                </div>
+                <button type="button" class="">Cadastrar agora</button>
+            </div>
+        </section>
+    </div>
+
 
 
     <script src="js/index.js"></script>
