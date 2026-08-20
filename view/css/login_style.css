@@ -1,0 +1,60 @@
+.body-container {
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    /* empilha o logo em cima e o form embaixo */
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* barra superior */
+
+#logo {
+    text-decoration: none;
+    color: black;
+}
+
+/* barra superior */
+
+/* form */
+
+.form {
+    flex: 1;
+    /* ocupa todo o espaço restante depois do logo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-form{
+    border-color: black;
+    border-width: 20px;
+}
+
+input .pad20t {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* form */
+
+/* pequenas paddings */
+
+.pad10t {
+    padding-top: 10px;
+}
+
+.pad15t {
+    padding-top: 15px;
+}
+
+.pad20t {
+    padding-top: 20px;
+}
+
+/* pequenas paddings */

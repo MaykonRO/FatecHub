@@ -2,9 +2,15 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 .inline {
     display: flex;
     flex-direction: row;
+}
+
+.colunm{
+    display: flex;
+    flex-direction: column;
 }
