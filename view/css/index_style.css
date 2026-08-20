@@ -48,6 +48,16 @@
     display: none;
 }
 
+#anchor-howto {
+    color: black;
+    text-decoration: none;
+}
+
+#anchor-categorias {
+    color: black;
+    text-decoration: none;
+}
+
 /* barra superior */
 
 /* banner topo */
@@ -154,13 +164,17 @@ section {
 
     /* CSS aqui só roda em telas menores que 768px (celular/tablet) */
 
-    .info-container {}
-
     .barra-superior {
         flex-direction: column;
     }
 
-    .row.mobile-bar {
+    .barra-superior-desktop{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .inline.mobile-bar {
+        margin-top: 15px;
         display: flex;
         justify-content: space-around;
     }
@@ -179,15 +193,25 @@ section {
 
     #anchor-howto-mobile {
         display: flex;
+        color: black;
+        text-decoration: none;
     }
 
     #anchor-categorias-mobile {
         display: flex;
+        color: black;
+        text-decoration: none;
     }
-    
+
     .container-como-funciona .inline {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cta-end{
+        margin-bottom: 20px;
     }
 }
 
