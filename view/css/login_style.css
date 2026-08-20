@@ -30,9 +30,12 @@ body {
     justify-content: center;
 }
 
-.card-form{
+.card-form {
+    padding: 25px;
+    border: solid;
     border-color: black;
-    border-width: 20px;
+    border-width: 2px;
+    border-radius: 16px;
 }
 
 input .pad20t {
@@ -40,10 +43,29 @@ input .pad20t {
     justify-content: center;
 }
 
+.divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 12px;
+    color: #B4B2A9;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #e5e5e5;
+}
 
 /* form */
 
-/* pequenas paddings */
+/* pequenos paddings */
+
+.pad5b {
+    padding-bottom: 5px;
+}
 
 .pad10t {
     padding-top: 10px;
@@ -51,6 +73,10 @@ input .pad20t {
 
 .pad15t {
     padding-top: 15px;
+}
+
+.pad15b {
+    padding-bottom: 15px;
 }
 
 .pad20t {
