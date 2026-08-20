@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+    <link rel="stylesheet" href="css/global_style.css">
+    <link rel="stylesheet" href="css/cadastro_style.css">
 </head>
 
 <body>
@@ -18,7 +20,82 @@
             </h1>
         </div>
 
-        <h1>CADASTRE-SE</h1>
+        <div class="form">
+            <div class="card-form">
+
+                <div class="">
+                    <h1>Criar sua conta</h1>
+                    <p>Junte-se à comunidade!.</p>
+                </div>
+
+                <div class="">
+                    <label for="user">Usuário</label>
+                    <input type="text" id="user" placeholder="Seu usuário" />
+                </div>
+
+                <div class="">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="email@gmail.com" />
+                </div>
+
+                <div class="">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" placeholder="Mínimo 8 caracteres" />
+                </div>
+
+                <div class="">
+                    <label for="cel">Celular</label>
+                    <input type="tel" id="cel" placeholder="(13) 99999-9999" />
+                </div>
+
+                <div class="">
+                    <div class="">
+                        <label for="semester">Semestre</label>
+                        <select id="semester" onchange="this.classList.add('filled')">
+                            <option value="" disabled selected>Selecione</option>
+                            <option>1º</option>
+                            <option>2º</option>
+                            <option>3º</option>
+                            <option>4º</option>
+                            <option>5º</option>
+                            <option>6º</option>
+                        </select>
+                    </div>
+
+                    <div class="">
+                        <label for="expected-graduation">Previsão de término</label>
+                        <input type="month" id="expected-graduation" />
+                    </div>
+                </div>
+
+                <div class="">
+                    <label for="course">Curso</label>
+                    <select id="course" onchange="this.classList.add('filled')">
+                        <option value="" disabled selected>Selecione seu curso</option>
+                        <option>Análise e Desenvolvimento de Sistemas</option>
+                        <option>Gestão da Tecnologia da Informação</option>
+                        <option>Logística</option>
+                        <option>Administração</option>
+                        <option>Recursos Humanos</option>
+                    </select>
+                </div>
+
+                <div class="termos">
+                    <input type="checkbox" id="terms" />
+                    <label for="terms">
+                        Concordo com os <a href="#">Termos de Uso</a> e a <a href="#">Política de Privacidade</a> do
+                        FatecHub.
+                    </label>
+                </div>
+
+                <button class="btn-primary">Criar conta</button>
+
+                <p class="login-link">
+                    Já tem conta? <a href="#">Entrar</a>
+                </p>
+
+            </div>
+        </div>
     </div>
 </body>
 
